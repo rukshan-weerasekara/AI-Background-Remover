@@ -28,4 +28,4 @@ The system executes a precise Image Segmentation pipeline:
 3.  **Thresholding & Merging:** Applying a threshold (e.g., $mask > 0.1$) to create a binary map, then using **NumPy** to merge the original pixels with a generated background.
 
 ---
-Developed by **Rukshan Weerasekara** *Creative Technologist | 3D Animator | AI Developer* Founder of **Code Sauce Labs**
+Developed by **Rukshan Weerasekara** *Creative Technologist | 3D Animator | AI Developer* Founder of **
