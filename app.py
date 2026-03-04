@@ -12,7 +12,7 @@ except ImportError:
 # Initialize the segmentation model directly
 segmentor = mp_selfie.SelfieSegmentation(model_selection=0)
 
-st.title("Code Sauce Labs: AI Background Remover")
+st.title("AI Background Remover")
 st.write("Upload an image to remove the background using AI.")
 
 # File uploader
