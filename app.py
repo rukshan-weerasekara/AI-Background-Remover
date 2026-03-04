@@ -22,8 +22,9 @@ if segmentor is None:
     st.info("Check your Streamlit Python version. 3.11 is highly recommended.")
     st.stop()
 
-st.title("Code Sauce Labs: AI Background Remover")
-st.write("Day 02 AI Challenge: Clean Background Extraction")
+st.title("AI Background Remover")
+st.markdown(f"**Developed by Rukshan Weerasekara** | Creative Technologist")
+st.markdown("---")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
